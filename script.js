@@ -78,7 +78,7 @@ const ctxOrgShare = document.getElementById("orgShareChart").getContext("2d");
 new Chart(ctxOrgShare, {
   type: "doughnut",
   data: {
-    labels: ["LSCS", "Peer Tutors", "SPRINT", "GDSC", "INDIE"],
+    labels: ["LSCS", "WG", "HTG", "LSDC", "DLSU Chorale"],
     datasets: [
       {
         label: "Members",
