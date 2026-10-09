@@ -26,7 +26,9 @@
     <link rel="stylesheet" href="style.css" />
     <!-- js -->
     <script src="script.js"></script>
+  </head>
 
+  <body>
     <!-- Main Container -->
     <main class="container my-5">
       <!-- header -->
@@ -36,7 +38,37 @@
       </header>
 
       <!-- bootstrap grid 1 -->
+      <div class="row g-4">
+        <!-- chart 1 -->
+        <div class="col-12 col-lg-4">
+          <div class="card h-100 p-3 shadow-sm chart-card">
+            <h5 class="card-title text-center mb-3">Course Enlistment Slots</h5>
+            <div class="chart-container">
+              <canvas id="enlistmentChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- chart 2 -->
+        <div class="col-12 col-lg-4">
+          <div class="card h-100 p-3 shadow-sm chart-card">
+            <h5 class="card-title text-center mb-3">Weekly Portal Traffic</h5>
+            <div class="chart-container">
+              <canvas id="trafficChart"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <!-- chart 3 -->
+        <div class="col-12 col-lg-4">
+          <div class="card h-100 p-3 shadow-sm chart-card">
+            <h5 class="card-title text-center mb-3">Org Membership Share</h5>
+            <div class="chart-container">
+              <canvas id="orgShareChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-  </head>
-  <body></body>
+  </body>
 </html>
