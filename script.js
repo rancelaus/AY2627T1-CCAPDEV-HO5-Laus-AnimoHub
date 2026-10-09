@@ -86,7 +86,7 @@ new Chart(ctxOrgShare, {
         backgroundColor: [
           "#2563eb", // Blue
           "#10b981", // Green
-          "#f59e0b", // Amber/Yellow
+          "#f59e0b", // Yellow
           "#ef4444", // Red
           "#8b5cf6", // Purple
         ],
